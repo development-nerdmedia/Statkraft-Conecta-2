@@ -48,7 +48,7 @@ section.preguntas .pregunta .interrogacion-content {
   display: none !important; }
 
 .section-decision .video1 img:hover, .section-decision .video1 video:hover, .section-decision .video1 iframe:hover, .section-decision .video1 iframe body:hover {
-  cursor: url("../img/play_menosmas_hover.png"), pointer; }
+  cursor: url("https://statkraft.dev2.urbangolem.com/img/play_menosmas_hover.png"), pointer; }
 
 h2.titulo-h2 {
   color: #004F84;
@@ -107,7 +107,7 @@ p.parrafo-p {
         top: 0;
         width: 100%; }
     .header-stk .header-stk__container .header-stk__content .header-stk__img-front {
-      background-image: url(../img/banner-mujer-destock2.png);
+      background-image: url(https://statkraft.dev2.urbangolem.com/img/banner-mujer-destock2.png);
       background-position: bottom;
       background-repeat: no-repeat;
       background-size: contain;
@@ -654,7 +654,7 @@ p.parrafo-p {
 .contribuye {
   padding: 100px 0;
   position: relative;
-  background-image: url(../img/fondo_manuales.jpg);
+  background-image: url(https://statkraft.dev2.urbangolem.com/img/fondo_manuales.jpg);
   background-position: right;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1295,7 +1295,7 @@ section.preguntas {
       display: none; }
 
 .section-banner-recycle {
-  background-image: url(../img/botella-recicla2.jpg);
+  background-image: url(https://statkraft.dev2.urbangolem.com/img/botella-recicla2.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -2310,7 +2310,7 @@ section.preguntas .pregunta label .img img.hover {
     max-width: 365px;
     max-width: 342px; }
   .section-banner-recycle {
-    background-image: url(../img/botella-recicla.tablet.jpg);
+    background-image: url(https://statkraft.dev2.urbangolem.com/img/botella-recicla.tablet.jpg);
     background-position: left; }
   .section-banner-recycle__content h1 {
     font-size: 70px; }
@@ -2351,7 +2351,7 @@ section.preguntas .pregunta label .img img.hover {
     left: -6px;
     width: 221px; }
   .header-stk .header-stk__container .header-stk__content .header-stk__img-front {
-    background-image: url(../img/banner-mujer2.png); }
+    background-image: url(https://statkraft.dev2.urbangolem.com/img/banner-mujer2.png); }
   h2.titulo-h2 {
     font-size: 30px; }
   .footer-stk__content-top {
@@ -2503,7 +2503,7 @@ section.preguntas .pregunta label .img img.hover {
 
 @media (max-width: 600px) {
   .section-banner-recycle {
-    background-image: url(../img/botella-recicla-responsive.jpg);
+    background-image: url(https://statkraft.dev2.urbangolem.com/img/botella-recicla-responsive.jpg);
     background-position: bottom; }
   .section-banner-recycle__container {
     height: 660px;

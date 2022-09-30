@@ -527,7 +527,7 @@ p.parrafo-p {
         display: flex; }
         .acciones .main-carousel .carousel-cell .img .filtro {
           position: absolute;
-          background-color: #00000054;
+          background-color: #00000030;
           top: 0;
           left: 0;
           width: 100%;
@@ -763,6 +763,9 @@ p.parrafo-p {
     .testimonios .tarjeta-testimonio:hover span {
       display: block; }
 
+footer.footer {
+  display: none !important; }
+
 .footer-stk {
   background-color: #C6EFF6;
   display: block; }
@@ -837,7 +840,9 @@ p.parrafo-p {
     box-shadow: none !important; }
 
 #test {
-  position: relative; }
+  position: relative;
+  background-color: #fff;
+  min-height: 100vh; }
 
 .btnback {
   position: absolute;
@@ -2174,7 +2179,7 @@ section.preguntas {
   .miradas, .section-decision, .banner, .acciones, .tarjeta, .contribuye, .testimonios {
     padding: 60px 0; }
   .marquee-with-options {
-    margin-top: 60px; }
+    padding-bottom: 60px; }
   .testimonios .tarjeta-testimonio {
     padding: 40px 0; }
   section.preguntas .hoja1 {
@@ -2391,7 +2396,7 @@ section.preguntas .pregunta label .img img.hover {
   .miradas, .section-decision, .banner, .acciones, .tarjeta, .contribuye, .testimonios {
     padding: 100px 0; }
   .marquee-with-options {
-    margin-top: 100px; }
+    padding-bottom: 100px; }
   .section-decision .content {
     margin-bottom: 100px; }
   .section-decision .banner-test {
@@ -2675,7 +2680,7 @@ section.preguntas .pregunta label .img img.hover {
   .miradas, .section-decision, .banner, .acciones, .tarjeta, .contribuye, .testimonios {
     padding: 70px 0; }
   .marquee-with-options {
-    margin-top: 70px; }
+    padding-bottom: 70px; }
   .section-decision .content {
     margin-bottom: 50px; }
   .acciones .main-carousel .carousel-cell {
@@ -2690,7 +2695,6 @@ section.preguntas .pregunta label .img img.hover {
   .section-decision .fondo-img {
     position: absolute;
     bottom: 0;
-    z-index: -2;
     display: flex;
     width: 100%;
     overflow: hidden; }
@@ -2856,6 +2860,8 @@ section.preguntas .pregunta label .img img.hover {
     padding: 14px 10px; } }
 
 @media (max-width: 375px) {
+  .marquee-with-options {
+    padding-bottom: 50px; }
   .header-stk__content .btn button {
     padding: 17px 20px;
     margin: auto; }

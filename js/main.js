@@ -601,9 +601,9 @@ MyApp = {
 
             function enviarData(nameVal, emailVal, puntos) {                
 
-                let dataobj = { nobreusuario: nameVal, correousuario: emailVal, calificacion: puntos}   
+                let dataobj = { Fullname: nameVal, Email: emailVal, Score: puntos}   
                 
-                postData('https://example.com/answer', dataobj)
+                postData('https://api.statkraft.dev2.urbangolem.com/v1/quiz/save', dataobj)
                     .then((data) => {
                         console.log(data); // JSON data parsed by `data.json()` call
                     });
@@ -620,8 +620,8 @@ MyApp = {
                     cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
                     credentials: 'same-origin', // include, *same-origin, omit
                     headers: {
-                        'Content-Type': 'application/json'
-                        // 'Content-Type': 'application/x-www-form-urlencoded',
+                        //'Content-Type': 'application/json'
+                        'Content-Type': 'application/x-www-form-urlencoded',
                     },
                     redirect: 'follow', // manual, *follow, error
                     referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url

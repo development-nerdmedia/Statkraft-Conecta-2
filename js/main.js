@@ -603,7 +603,7 @@ MyApp = {
 
                 let dataobj = { Fullname: nameVal, Email: emailVal, Score: puntos}   
                 
-                postData('https://api.statkraft.dev2.urbangolem.com/v1/quiz/save', dataobj)
+                postData('https://api.conectaconelfuturo.pe/v1/quiz/save', dataobj)
                     .then((data) => {
                         console.log(data); // JSON data parsed by `data.json()` call
                     });
